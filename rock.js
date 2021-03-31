@@ -9,7 +9,7 @@ class Rock{
 		this.radius=radius
 		this.x=x
 		this.y=y
-		this.image=loadImage("Plucking mangoes/stone.png");
+		this.image=loadImage("stone.png");
 		this.body=Bodies.circle(this.x, this.y, this.radius/2, options)
 		World.add(world, this.body);
 
