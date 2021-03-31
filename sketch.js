@@ -10,9 +10,9 @@ var boyimg;
 var state = 0;
 function preload()
 {
-	imgTree = loadImage("Plucking mangoes/tree.png")
+	imgTree = loadImage("tree.png")
 	landimg = loadImage("Landscape.jpg")
-  boyimg = loadImage("Plucking mangoes/boy.png")
+  boyimg = loadImage("boy.png")
 }
 
 function setup() {
